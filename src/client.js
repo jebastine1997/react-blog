@@ -1,6 +1,6 @@
-import SanityClientConstructor from "@sanity/client"
+import SanityClient from "@sanity/client"
 
-export default SanityClientConstructor({
+export default SanityClient({
     projectId:'iio3w8o6',
     dataset:'production'
 })
